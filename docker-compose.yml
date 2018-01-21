@@ -44,7 +44,7 @@ services:
       - db
       - queue
     environment:
-      - DB_NAME=email_sender
+      - DB_NAME=tabela_nome_errado_veja_override
   queue:
     image: redis:3.2
     networks:
